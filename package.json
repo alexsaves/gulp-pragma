@@ -1,0 +1,38 @@
+{
+  "name": "gulp-pragma",
+  "version": "1.0.0",
+  "description": "A Gulp plugin to optionally remove pragma comments from your code that follow a particular pattern. Useful for JavaScript builds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexsaves/gulp-pragma.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "pragma",
+    "compiler",
+    "directives",
+    "directive",
+    "comment",
+    "comments",
+    "replace",
+    "remove"
+  ],
+  "author": "Alexei White <alexei.white@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexsaves/gulp-pragma/issues"
+  },
+  "homepage": "https://github.com/alexsaves/gulp-pragma#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "gulp-util": "^3.0.7",
+    "istextorbinary": "^1.0.2",
+    "replacestream": "^4.0.0",
+    "through2": "^2.0.1"
+  }
+}
